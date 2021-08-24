@@ -7,14 +7,14 @@
 
 // make it with for loop
 
-    //  const name = [];
-    // for (let i = 0; i < students.length; i++) {
-    //     const element = students[i];
-    //      const names = element.name;
-    //      name.push(names)
+     const name = [];
+    for (let i = 0; i < students.length; i++) {
+        const element = students[i];
+         const names = element.name;
+         name.push(names)
  
-    // }
-    // console.log(name);
+    }
+    console.log(name);
 
     // make it with map and arrow function
      const name = students.map(s => s.name);
@@ -26,6 +26,8 @@
 
        console.log(bigger);
 
+
+    // make it with find and arrow function
        const biggerF = students.find(x => x.id > 50);
 
        console.log(biggerF);
