@@ -24,7 +24,7 @@
             .then(json => displayUser(json))
 
             function displayUser (users){
-                 const userNames = users.map(user => user.userNames);
+                 const userNames = users.map(user => user.username);
                  const ul = document.getElementById("user_container");
 
                  for (let i = 0; i < userNames.length; i++) {
